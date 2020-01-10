@@ -26,8 +26,5 @@
     "outDir": "./dist"
   },
   "include": ["src/**/*"],
-  "exclude": ["**/__tests__", "**/__mocks__"],
-  "references": [
-    { "path": "../graphql-extensions" }
-  ]
+  "exclude": ["**/__tests__", "**/__mocks__"]
 }
