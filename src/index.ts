@@ -1,5 +1,5 @@
 import { Tracer } from '@opentelemetry/types';
-import { RemoteGraphQLDataSource } from '@apollo/gateway';
+import { RemoteGraphQLDataSource } from 'apollo-gateway-tracing';
 import { Response} from 'apollo-server-env';
 import { GraphQLRequestContext } from 'apollo-server-types';
 import { ApolloError } from 'apollo-server-errors';
