@@ -1,0 +1,25 @@
+{
+  "name": "apollo-opentracing-datasource",
+  "version": "0.0.6",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "devDependencies": {
+    "@opentelemetry/core": "^0.3.2",
+    "@opentelemetry/exporter-jaeger": "^0.3.2",
+    "@opentelemetry/node": "^0.3.2",
+    "@opentelemetry/plugin-http": "^0.3.2",
+    "@opentelemetry/tracing": "^0.3.2",
+    "apollo-server-types": "^0.2.10",
+    "prettier": "1.19.1",
+    "typescript": "3.7.2"
+  },
+  "dependencies": {
+    "apollo-gateway-tracing": "latest",
+    "apollo-server-errors": "latest"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "compile": "tsc",
+    "publish": "npm publish"
+  }
+}
